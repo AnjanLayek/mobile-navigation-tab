@@ -8,6 +8,59 @@
     <link rel="stylesheet" href="style.css">
     
     <title>Mobile Navigation</title>
+    <style>
+    
+body{
+    background-color: thistle;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+    margin: 0;
+}
+.mob_home_img{
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #eee;
+    border-radius: 15px;
+    height: 550px;
+    width: 340px;
+    opacity: 1;
+} 
+
+
+nav{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: -5px;
+    width: 100%;
+}
+
+nav ul{
+    background-color: #fff;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+}
+nav li{
+    color: gray;
+    cursor: pointer;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+nav li p{
+    font-size: 12px;
+    margin: 2px 0;
+}
+
+nav ul li:hover,nav ul li .active{
+    color: red;
+}
+    </style>
         
 </head>
 <body>
